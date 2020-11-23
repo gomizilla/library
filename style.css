@@ -46,3 +46,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+#title {
+	background: yellow;
+	border: black dotted 3px;
+	text-align: center;
+	font-size: 75px; 
+	height: 75px;
+	
+}
+
+#input {
+	background: lightblue;
+	border: purple solid 3px;
+	text-align: center;
+	height: 150px;
+}
+
+form {
+	border: black solid 3px;
+}
+
+#book-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	background: lightgreen;
+	/* text-align: center; */
+	/* justify-items: center; */
+	
+}
+
+.book {
+	border: gray dotted 2px;
+	/* justify-self: center; */
+}
+
+#sample1 {
+	background: orange;
+}
+
+#sample2 {
+	background: yellowgreen;
+}
+
+#sample3 {
+	background: gray;
+}

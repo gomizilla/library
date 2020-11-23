@@ -7,23 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>title</h1>
-    <div>
+    <h1 id="title">title</h1>
+    <div id="input">
         input area?
+        <div id="bookinfocontainer">
+            <form method="GET" id="bookform">
+                Book Title: <input type="text" name="bookname"> <br>
+                Author: <input type="text" name="author"> <br>
+                Number of Pages: <input type="text" name="numofpages"> <br>
+                Have Read: 
+                <input type="radio" name="haveread"> Yes 
+                <input type="radio" name="haveread"> No <br>
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </form>
+        </div>
     </div>
 
-    <div>
+    <div id="book-container">
+        <div id="sample1" class="book">
         sample book 1
-    </div>
+        </div>
 
-    <div>
-        sample book 2
+        <div id="sample2" class="book">
+            sample book 2
+        </div>
+        
+        <div id="sample3" class="book">
+            sample book 3
+        </div>
     </div>
     
-    <div>
-        sample book 3
-    </div>
-    
+
     <script src="javascript.js"></script>
 </body>
 </html>
